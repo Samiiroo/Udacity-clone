@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.header-hero{
+    background-image: url(img/computerguy.jpg);
+}
+.content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-content:center;   
+    width: 50%;
+}
+
+.blue{
+    background-color: #017a9b;
+    text-align: center;
+    height: 2rem;
+    width: 6rem;
+}
+.grey{
+    text-align: center;
+    height: 2rem;
+    width: 6rem;
+    background-color: #6d7780;
+}
+
+.table-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+table{
+    display: flex;
+    flex-direction:     ;
+}
